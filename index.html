@@ -1,127 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, inital-scale=1.0">
-  <title>ikaros portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+		<title>ikaros portfolio</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+			integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+			crossorigin="anonymous"
+		/>
 
-  <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
 
-</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="img/miku.jpg" alt="a pciture of hatsune miku" />
+				<!-- image needed here -->
+			</div>
 
-<body>
-  <header>
-    <div class="logo">
-      <img src="" alt=""> <!-- image needed here -->
-    </div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="home" class="nav__link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="services" class="nav__link">My Services</a>
+					</li>
+					<li class="nav__item">
+						<a href="about" class="nav__link">About Me</a>
+					</li>
+					<li class="nav__item">
+						<a href="work" class="nav__link">My Work</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Introduction -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <strong>Caydan Atwood</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">front-end dev</p>
+			<img src="img/caydan1.jpg" alt=" a picture of betty smiling" />
+			<!-- image needed here -->
+		</section>
 
-    <button class="nav-toggle" aria-label="toggle navigation">
-      <span class="hamburger"></span>
-    </button>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="home" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="services" class="nav__link">My Services</a></li>
-        <li class="nav__item"><a href="about" class="nav__link">About Me</a></li>
-        <li class="nav__item"><a href="work" class="nav__link">My Work</a></li>
-      </ul>
-    </nav>
-  </header>
-    <!-- Introduction -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Caydan Atwood</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-      <img src="img/caydan1.jpg" alt=" a picture of betty smiling">  <!-- image needed here -->
-    </section>
+		<!-- My Services -->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">What I do</h2>
+			<div class="services">
+				<div class="service">
+					<h3>Design & Development</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Eius, voluptas itaque accusantium in consectetur facere,
+						exercitationem tenetur rem eaque, illum illo sit. Obcaecati
+						ducimus explicabo minima quisquam autem consequuntur sapiente!
+					</p>
+				</div>
+				<!-- / service -->
 
-     <!-- My Services -->
-      <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-        <div class="services">
-          <div class="service">
-            <h3>Design & Development</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, voluptas itaque accusantium in consectetur facere, exercitationem tenetur rem eaque, illum illo sit. Obcaecati ducimus explicabo minima quisquam autem consequuntur sapiente!</p>
-          </div><!-- / service -->
+				<div class="service">
+					<h3>Lorem</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+						molestias hic beatae nulla! Consequatur, qui. Nisi in tenetur
+						vel explicabo mollitia praesentium assumenda nesciunt quis!
+						Nihil aliquam fugit quod quia.
+					</p>
+				</div>
+				<!-- / service -->
 
-          <div class="service">
-            <h3>Lorem</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias hic beatae nulla! Consequatur, qui. Nisi in tenetur vel explicabo mollitia praesentium assumenda nesciunt quis! Nihil aliquam fugit quod quia.</p>
-          </div> <!-- / service -->
+				<div class="service">
+					<h3>Lorem</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+						dolorum suscipit, obcaecati amet quis harum provident porro
+						laborum! At aut voluptatem similique eligendi, animi neque
+						reiciendis. Consequuntur facere cumque quae.
+					</p>
+				</div>
+				<!-- / service -->
+			</div>
+			<!-- / services -->
+			<a href="work" class="btn">My Work</a>
+		</section>
 
-          <div class="service">
-            <h3>Lorem</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorum suscipit, obcaecati amet quis harum provident porro laborum! At aut voluptatem similique eligendi, animi neque reiciendis. Consequuntur facere cumque quae.</p>
-          </div> <!-- / service -->
+		<!-- About Me -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I Am</h2>
+			<p class="section__subtitle section__subtitle--about"></p>
 
-        </div> <!-- / services -->
-         <a href="work" class="btn">My Work</a>
-      </section>
+			<div class="about-me__body">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+					dicta, debitis autem ipsa corrupti tempora alias consectetur
+					nostrum delectus, hic sit blanditiis, suscipit pariatur mollitia.
+					Maxime fuga minus illo ipsam.
+				</p>
+				<p>Lorem</p>
+			</div>
 
-      <!-- About Me -->
-      <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I Am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+			<img src="img/caydan2.JPG" alt="a picture of archie snoot" />
+			<!-- image goes here-->
+		</section>
 
-        <div class="about-me__body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dicta, debitis autem ipsa corrupti tempora alias consectetur nostrum delectus, hic sit blanditiis, suscipit pariatur mollitia. Maxime fuga minus illo ipsam.</p>
-          <p>Lorem</p>
-        </div>
+		<section class="my-work" id="work">
+			<h2 class="section__title">My Work</h2>
+			<p class="section__subtitle"></p>
 
-        <img src="img/caydan2.JPG" alt="a picture of archie snoot"> <!-- image goes here-->
-      </section>
+			<div class="portfolio">
+				<!-- portfolio item 01 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/work1.png" alt="" class="portfolio__img" />
+					<!-- image goes here-->
+				</a>
 
-      <section class="my-work" id="work">
-        <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle"></p>
+				<!-- portfolio item 02 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/work2.png" alt="" class="portfolio__img" />
+					<!-- image goes here-->
+				</a>
 
-        <div class="portfolio">
-          <!-- portfolio item 01 -->
-          <a href="img/work1.png" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img"> <!-- image goes here-->
-          </a>
+				<!-- portfolio item 03 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/work3.png" alt="" class="portfolio__img" />
+					<!-- image goes here-->
+				</a>
 
-          <!-- portfolio item 02 -->
-          <a href="img/work2.png" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img"> <!-- image goes here-->
-          </a>
+				<!-- portfolio item 04 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/work4.png" alt="" class="portfolio__img" />
+					<!-- image goes here-->
+				</a>
 
-          <!-- portfolio item 03 -->
-          <a href="img/work3.png" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img"> <!-- image goes here-->
-          </a>
+				<!-- portfolio item 05 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/work5.png" alt="" class="portfolio__img" />
+					<!-- image goes here-->
+				</a>
 
-          <!-- portfolio item 04 -->
-          <a href="img/work4.png" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img"> <!-- image goes here-->
-          </a>
+				<!-- portfolio item 06 -->
+				<a href="#" class="portfolio__item">
+					<img src="img/work6.png" alt="" class="portfolio__img" />
+					<!-- image goes here-->
+				</a>
+			</div>
+		</section>
 
-          <!-- portfolio item 05 -->
-          <a href="img/work5.png" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img"> <!-- image goes here-->
-          </a>
-
-           <!-- portfolio item 06 -->
-          <a href="img/work6.png" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img"> <!-- image goes here-->
-          </a>
-        </div>
-      </section>
-
-      <!-- Footer -->
-      <footer>
-        <a href="" class="footer--link">c.ivy.atwood@gmail.com</a>
-        <ul class="social-list">
-          <li class="social-list__item"><a href="google.com" class="social-list__link">google</a></li>
-          <li class="social-list__item"><a href="google.com" class="social-list__link">google</a></li>
-          <li class="social-list__item"><a href="google.com" class="social-list__link">google</a></li>
-          <li class="social-list__item"><a href="google.com" class="social-list__link">google</a></li>
-          <li class="social-list__item"><a href="google.com" class="social-list__link">google</a></li>
-        </ul>
-      </footer>
-     
-</body>
+		<!-- Footer -->
+		<footer>
+			<a href="" class="footer--link">c.ivy.atwood@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a href="google.com" class="social-list__link">google</a>
+				</li>
+				<li class="social-list__item">
+					<a href="google.com" class="social-list__link">google</a>
+				</li>
+				<li class="social-list__item">
+					<a href="google.com" class="social-list__link">google</a>
+				</li>
+				<li class="social-list__item">
+					<a href="google.com" class="social-list__link">google</a>
+				</li>
+				<li class="social-list__item">
+					<a href="google.com" class="social-list__link">google</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
 </html>
