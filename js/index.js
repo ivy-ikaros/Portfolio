@@ -11,3 +11,5 @@ navLinks.forEach(link => {
     document.body.classList.remove('nav-open');
   });
 });
+
+// add functionality so click outside of nav closes
