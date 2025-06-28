@@ -154,26 +154,14 @@ header {
   background: var(--clr-light);
 }
 
-/* .topbar {
-  position: fixed;
-  height: 6vw;
-  width: 100%;
-  background: var(--clr-light);
-  z-index: 25;
-} */
-
-/* .logo {
-  margin: 0;
-  padding: 0;
-} */
-
-.logo__link {
+.logo {
   color: inherit;
   font-family: "Astloch", system-ui;
   font-weight: 700;
   font-size: 1.75rem;
-  text-decoration: none;
-  padding: 0.25em;
+  margin-top: 0.05em;
+  margin-left: 0.15em;
+  margin-bottom: 0;
 }
 
 .nav__layer {
